@@ -1,0 +1,14 @@
+canvas.editor{
+	border:1px solid #333;
+	background-color: #DDD;
+}
+input.cursor{
+	position: absolute;
+	/*opacity: .5;*/
+	border: 0;
+	margin: 0;
+	width: 1px;
+}
+input.cursor:focus{
+	outline: none;
+}
