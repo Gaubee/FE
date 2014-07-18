@@ -18,6 +18,8 @@
         warnings: true,
         mangle: true
     },
+    skipModuleInsertion:true,
+    cjsTranslate: false,
     useStrict: true,
     out: "../FE.debug.js",
     wrap: false

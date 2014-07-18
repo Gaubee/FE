@@ -20,7 +20,9 @@
         warnings: true,
         mangle: false
     },
-    // useStrict: true,
+    skipModuleInsertion:true,
+    cjsTranslate: false,
+    useStrict: true,
 
     //In 2.0.12+: by setting "out" to "stdout", the optimized output is written
     //to STDOUT. This can be useful for integrating r.js with other commandline

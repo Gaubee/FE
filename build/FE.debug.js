@@ -207,5 +207,3 @@ MX.prototype = {
 };
 
 window.onload = init;
-
-define("../js/FE/main", function() {});

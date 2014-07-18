@@ -199,6 +199,4 @@
         }
     };
     window.onload = init;
-    define("../js/FE/main", [], function() {});
-    define("FE.debug", function() {});
 }();
