@@ -1,7 +1,9 @@
+var userSetting = require("./config/setting.user");
+
 var config = {
 	editor:{
 		height:400,
-		width:400
+		width:500
 	},
 	//User
 	text:{

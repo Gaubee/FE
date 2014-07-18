@@ -34,8 +34,5 @@
     //not globals. The end text can expose some globals from your file,
     //making it easy to create stand-alone libraries that do not mandate
     //the end user use requirejs.
-    wrap: {
-        start: "(function() {",
-        end: "}());"
-    },
+    wrap: false,
 })

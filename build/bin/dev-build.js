@@ -37,8 +37,8 @@ var _com = process.env.OS.indexOf("Window")!==-1?"r.js.cmd":"r.js";
 
 function _build_debug (build_id) {
   console.time(build_id);
-  exec(_com+" -o build/bin/build-debug.js",function (error,cb) {
-    if (error||cb.indexOf("Error:")===0) {
+  exec("browserify js/FE/main -o ./build/FE.debug.js",function (error,cb) {
+    if (error||cb.indexOf("Error:")!==-1) {
       console.log("+++debugger build Error+++");
       console.log(error||cb);
       console.log("---debugger build Error---");
@@ -51,7 +51,7 @@ function _build_debug (build_id) {
 };
 function _build_normal (build_id) {
   exec(_com+" -o build/bin/build-normal.js",function (error,cb) {
-    if (error||cb.indexOf("Error:")===0) {
+    if (error||cb.indexOf("Error:")!==-1) {
       console.log("+++normal build Error+++");
       console.log(error||cb);
       console.log("---normal build Error---");
@@ -64,7 +64,7 @@ function _build_normal (build_id) {
 };
 function _build_min (build_id) {
   exec(_com+" -o build/bin/build-min.js",function (error,cb) {
-    if (error||cb.indexOf("Error:")===0) {
+    if (error||cb.indexOf("Error:")!==-1) {
       console.log("+++min build Error+++");
       console.log(error||cb);
       console.log("---min build Error---");

@@ -14,6 +14,7 @@ start http://127.0.0.1:31136
 
 * [node](https://nodejs.org)
 * [npm:fb-flo](https://github.com/facebook/fb-flo)
+* [browserify](http://browserify.org/#install)
 * [r.js](https://github.com/jrburke/r.js)
 
 2. 开启开发模式(begin dev-mode)
