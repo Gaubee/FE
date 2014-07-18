@@ -96,6 +96,7 @@ function MX(ctx,text){
 		}
 	}
 	MCS.push(line);
+	this.draw();
 };
 MX.prototype = {
 	//获取最接近某坐标的C对象及其相应信息
@@ -220,7 +221,7 @@ function init (text) {
 	/*var */ctx = canvasNode.getContext('2d');
 	
 	//初始化一个横竖都为0的矩阵列
-	var mx = new MX(ctx,"");
+	var mx = new MX(ctx,"asdadsadsdas\n萨达大厦的asdasd阿");
 
 	//光标缓存区
 	var cursorMap = new WeakMap();

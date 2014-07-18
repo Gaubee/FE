@@ -1,14 +1,26 @@
 {
-  "name": "feature",
+  "name": "FE",
   "version": "0.0.0",
-  "description": "具有现代感并提供沉浸式编程的编辑器",
-  "main": "index.js",
+  "description": "feature-editor(具有现代感并提供沉浸式编程的编辑器)",
+  "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "node server.js",
+    "dev": "node build/bin/dev-build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gaubee/FE.git"
   },
   "keywords": [
     "editor"
   ],
   "author": "Gaubee",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gaubee/FE/issues"
+  },
+  "homepage": "https://github.com/Gaubee/FE",
+  "dependencies": {
+    "express": "^4.6.1"
+  }
 }

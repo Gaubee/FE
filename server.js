@@ -2,7 +2,7 @@ var express = require("express");
 var path = require('path');
 var app = express();
 app.get('/*', function(req, res) {
-    var file = req.params[0]||"index.html";
+    var file = req.params[0]||"page/index.html";
     console.log('请求文件： ' + file + ' ...');
     if (file) {
         res.header("Access-Control-Allow-Origin", "*");
